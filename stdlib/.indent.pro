@@ -48,5 +48,6 @@
 -T lua_State
 -T lua_CFunction
 
+-T keccak_t
 -T direntry_t
 -T dirlist_t
