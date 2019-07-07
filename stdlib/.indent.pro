@@ -42,3 +42,11 @@
 -T uint32_t
 -T uint64_t
 -T size_t
+-T mode_t
+-T DIR
+
+-T lua_State
+-T lua_CFunction
+
+-T direntry_t
+-T dirlist_t
