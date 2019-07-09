@@ -70,7 +70,7 @@ static int dirlist_init(lua_State *L, lua_CFunction func) {
   list->size = 1;
   luaL_setmetatable(L, "folder");
   dirlist_append(list, path);
-  lua_pushcclosure(L, lua_listiter, 1);
+  lua_pushcclosure(L, func, 1);
   return 1;
 }
 
